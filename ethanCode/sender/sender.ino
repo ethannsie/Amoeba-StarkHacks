@@ -1,6 +1,3 @@
-// shared_types.h
-#pragma once
-
 typedef struct {
   float accel_x, accel_y, accel_z;  // m/s²
   float gyro_x,  gyro_y,  gyro_z;   // rad/s
@@ -76,23 +73,3 @@ void loop() {
   delay(20);  // ~50Hz — adjust as needed
 }
 
-// #include <Wire.h>
-
-// void setup() {
-//   Serial.begin(115200);
-//   delay(1000);
-//   Wire.begin(8, 9);  // SDA, SCL
-
-//   Serial.println("Scanning I2C bus...");
-//   int found = 0;
-//   for (uint8_t addr = 1; addr < 127; addr++) {
-//     Wire.beginTransmission(addr);
-//     if (Wire.endTransmission() == 0) {
-//       Serial.printf("  Device found at 0x%02X\n", addr);
-//       found++;
-//     }
-//   }
-//   if (!found) Serial.println("  No devices found — check wiring!");
-// }
-
-// void loop() {}
