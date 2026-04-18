@@ -9,7 +9,7 @@ void setup() {
   while (!Serial) delay(10);
 
   // Initialize I2C on GPIO 8 (SDA) and GPIO 9 (SCL)
-  Wire.begin(8, 9);
+  Wire.begin(7, 15);
 
   Serial.println("Initializing MPU-6050...");
 
