@@ -1,4 +1,4 @@
-# Passenger Princess 🚗
+# Passenger Princess 👸
 
 > *A wearable hardware co-pilot that uses real-time sensor fusion to coach drivers with hands-free, eyes-on-the-road audio feedback.*
 
